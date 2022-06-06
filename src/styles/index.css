@@ -10,3 +10,79 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+#app{
+    margin: 0;
+    padding: 0;
+}
+.positioning{
+  
+  background-image: url("https://img.freepik.com/foto-gratis/superficie-piso-carretera-vacia-ciudad-moderna_1112-4175.jpg?w=2000");
+ height: 1000px;
+   
+  background-size: cover;
+}
+
+.stick{
+    border: 1px solid black;
+    background-color: black;
+    width: 50px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+.parent-div{
+    padding: 0;
+    background-color: black;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+
+.light{
+    border: 1px solid black;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    box-shadow:
+    10px 0 80px white;
+    background-color: white;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+}
+
+div .glow{
+   box-shadow:
+    0 0 50px yellow,
+    10px 0 80px yellow;
+    border: 1px solid black ;
+}
+
+.no-glow{
+    box-shadow:
+    0 0 50px #fff;
+}
+.red{
+    background-color: red;
+    
+}
+.yellow{
+    background-color: yellow;
+    
+}
+.green{
+    background-color: green;
+    
+}
+.purple{
+    background-color: purple;
+    
+}
+.btn-div{
+    margin: 10px auto;
+    text-align: center;
+    
+}
